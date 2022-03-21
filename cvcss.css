@@ -1,0 +1,240 @@
+body{
+    background-color:#222;
+}
+.navbar{
+    font-size: 12px;
+    top:Opx;
+}
+
+.navbar-brand{
+padding-left: 15px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+
+#cv-body{
+    margin-top:15px;
+    background-color:#222;
+}
+
+.column{
+    color:white;
+    width: 50%;
+    float: left;
+    padding:20px;
+}
+
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left {
+    width: 35%;
+  }
+  
+  .right {
+    width: 65%;
+  }
+
+
+@media screen and (max-width:767px){
+    .column{
+    width:100%;
+    } 
+    #righthandside{
+        border-top: 2px solid rgb(87, 48, 48);
+        
+    }  
+}
+@media screen and (min-width:500px) and (max-width:767px){
+    #competence .column{
+        width:40%;
+    }
+    
+    
+}
+@media screen and (min-width:767px) and (max-width:1115px){
+    #competence .column{
+        width:100%;
+    }
+    #competence .column img{
+        margin-top:70px;
+    }
+    #competence .row{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #lefthandside{
+        border-right: 2px solid rgb(87, 48, 48);
+        
+    }  
+
+    
+}
+@media screen and (min-width:767px) and (max-width:992px){
+    #competence .column{
+        text-align: left;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    #competence .column img{
+        margin-top:190px;
+    }
+    #experience{
+        margin-top:190px;
+    }
+}
+@media screen and (min-width:991px) and (max-width:1114px){
+    
+    #experience{
+        margin-top:90px;
+    }
+}
+@media screen and (min-width:1115px) and (max-width:1200px){
+    
+    #experience{
+        margin-top:90px;
+    }
+    #competence{
+        margin-top:50px
+    }
+    #lefthandside{
+        border-right: 2px solid rgb(87, 48, 48);
+        
+    } 
+    footer #links{
+        margin-right: 150px;
+    }
+}
+@media screen and (min-width:1200px){
+    #lefthandside{
+        border-right: 2px solid rgb(87, 48, 48);
+        
+    } 
+    footer #links{
+        margin-right: 150px;
+    }
+}
+
+
+.dropdown li a{
+    background-color: #222;
+    color:white;
+}
+
+#competence img{
+    margin-top:20px;
+    width:100px;
+    
+}
+#competence h2{
+    border-top: 5px solid #222;
+    padding-top:20px;
+}
+
+#profile{
+    width:
+    display:inline-block;
+}
+
+#formation{
+    color:white;
+    background-color:rgb(41, 39, 39);
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 2px solid rgb(87, 48, 48);
+    border-bottom: 2px solid rgb(87, 48, 48)ed;
+    
+}
+#formation h2{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color:#222;
+    color:white;
+    padding:0px;    
+}
+footer ul li{
+    list-style: none;
+    float:left;
+    margin-right: 60px;
+    
+   
+    
+}
+footer #links{
+   float:right;
+   
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding:20px;
+    
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    
+}
+
+
+
+
+/*********************/
+
+.form-inline{
+    margin-left: 10px;
+}
+small{
+    
+    border-bottom: 2px solid rgb(79, 73, 88);
+    padding-bottom:10px;
+    
+}
+#borderbottom{
+    margin-bottom: 50px;
+}
+#download{
+    background-color:rgb(79, 79, 231);
+}
+
+
+/* resizing section*/
+h1{
+    font-size: 28px;
+}
+
+/* increasing spaces between paragraphes*/
+#righthandside p {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+/* adding space between formations */
+#formation ul{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+/* resizing formations */
+#formation .formationentete{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*resizing dates chronologies*/
+.date{
+    font-style: italic;
+}
